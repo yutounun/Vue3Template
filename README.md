@@ -1,14 +1,38 @@
-# Vue3TemplateWithFireBase
+# WorkoutTrackingApp
 
-This is a template repository which I can utilize when I create an app using Vue3 with TypeScript, Firebase, Tailwind css, CI/CD with github actions...
+This app helps trainees to track exercises and meals they do.
 
-## ※Caution
+## TODO before start development
 
-You do need to change some configs on `.firebaserc`and `firebase/init.ts` to connect with a new project on Firebase.
+- ✅typescript
+- ✅Create components and directories beforehand using Atomic design
+  - Define component name as well on figma
+- ✅CI/CD for testing and deployment
+- ✅Connection to Firebase for hosting and DB
+- ✅Firebase for Auth
+- Unit test using vitest and testing-library
+- ✅tailwind-css
+  - https://qiita.com/taai/items/32a4cdf15a49b63d8a6f
+- ✅Daisy UI
+- ✅production and local envs
+- TDD
+- Use StoryBook
+- Swagger with spotlight
+- draw.io
+- Dev-container
+
+## Check the latest development
+
+https://workout-app-5e81f.web.app/
+
+### sample components
+
+https://workout-app-5e81f.web.app/samples
 
 ## Design
 
-Use Figma.
+https://www.figma.com/file/7vvfcNq19fBDlVO3i7IVnv/WorkoutApp?node-id=7%3A604&t=3VBsrBVIwm4r6Wpi-1
+![Figma](./public/temp-pix/figma.png)
 
 ## Project Setup
 
@@ -66,6 +90,10 @@ npm run test:e2e -- tests/example.spec.ts
 # Runs the tests in debug mode
 npm run test:e2e -- --debug
 ```
+
+## API docs
+
+The path is `/src/api/docs/openapi.yaml`
 
 ## Coding guide
 

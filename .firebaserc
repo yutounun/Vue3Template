@@ -1,6 +1,5 @@
 {
   "projects": {
-    // Select the project name
-    // "default": "workout-app-5e81f"
+    "default": "workout-app-5e81f"
   }
 }

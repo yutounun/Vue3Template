@@ -2,11 +2,35 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
+    path: "/sample",
+    name: "sample",
+    component: () => import("@/pages/SampleComponents.vue"),
+    meta: {
+      title: "sample画面",
+    },
+  },
+  {
+    path: "/create-account",
+    name: "CreateAccount",
+    component: () => import("@/pages/CreateAccountPage.vue"),
+    meta: {
+      title: "CreateAccount",
+    },
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: () => import("@/pages/LoginPage.vue"),
+    meta: {
+      title: "Login",
+    },
+  },
+  {
     path: "/",
     name: "home",
-    component: () => import("@/pages/HomeView.vue"),
+    component: () => import("@/pages/SampleComponents.vue"),
     meta: {
-      title: "HOME画面",
+      title: "Home",
     },
   },
 ];
